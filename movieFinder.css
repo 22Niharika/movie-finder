@@ -1,0 +1,189 @@
+*{
+	overflow-x: hidden;
+	filter: hue-rotate(0deg);
+}
+
+
+
+/* *:hover{
+	border: 5px solid rgb(114, 0, 0);
+}
+
+body:hover{
+	border: none;
+} */
+
+
+body{
+	margin: 0px;
+	padding:0px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.header_layout{
+	background-color: rgb(9, 34, 3);
+	height: 140px;
+	width: 100%;
+}
+
+.full_search_box{
+	border: 4px solid #000000;
+	height: 40px;
+	width: 100%;
+}
+
+.website_data_card{
+	flex: 1;
+	margin-top: 80px;
+	width: 80%;
+	
+	background-color: #312a04;
+	border-radius: 10px;
+}
+
+.website_data_card p{
+	padding: 50px;
+	color:aliceblue;
+	font-size: 40px;
+	font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;	
+
+}
+
+.card_list{
+	margin-top: 80px;
+    width: 300px;
+}
+
+.movie_data_card{
+	margin-top: 80px;
+	max-width:60vw;
+    word-wrap:break-word;
+	
+	background-color: #f7c495;
+	transition-duration: 0.8s;
+	border-radius: 10px;
+}
+
+.movie_data_card:hover{
+	background-color: #f7c495;
+	
+	transition-duration: 0.3s;
+}
+
+.poster{
+	padding: 60px 20px 10px;
+}
+
+.poster img{
+	border:4px solid #1F1D36;
+}
+
+.movie_info{
+	padding:20px;
+}
+.movie_info p{
+	color:#000000;
+}
+
+.input_search_button:hover{
+	background-color: #151424;
+}
+
+.page_number{
+	margin-top: 80px;
+	color: #9E9D9F;
+	font-size: 20px;
+	background-color: #000000d0;
+	padding: 20px;
+	color: rgba(255, 255, 255, 0.781);
+	font-weight: 600;
+	border-radius: 10px;
+	font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+.footer{
+	margin-top: 80px;
+	padding: 20px;
+	background-color: #1F1D36;
+	height: 20px;
+	width: 100%;
+	color: #DEDDFF;
+}
+
+.c_header_text{
+	align-content: center;
+	display: inline-block;
+	font-size: 40px;
+	font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+	color: #DEDDFF;
+}
+
+.movie_data_card{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+                 
+    .input_search_text{
+		border: none;
+		margin: none;
+		padding: none;
+		outline: none;
+		height:38px;
+		width: 79%;
+		float: left;
+		font-size: 18px;
+		font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+	}
+
+	.input_search_button{
+		border: none;
+		margin: none;
+		padding: none;
+		outline: none;
+		background-color: #3c3963;
+		color: #DEDDFF;
+		transition-duration: 0.8s;
+		height: 40px;
+		width:20.4%;
+		float: right;
+		font-size: 18px;
+		font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+	}
+
+
+
+    .input_search_text{
+		border: none;
+		margin: none;
+		padding: none;
+		outline: none;
+		height:38px;
+		width: 78%;
+		float: left;
+		font-size: 18px;
+		font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+	}
+
+	.input_search_button{
+		border: none;
+		margin: none;
+		padding: none;
+		outline: none;
+		background-color: #3F3351;
+		color: #DEDDFF;
+		transition-duration: 0.8s;
+		height: 40px;
+		width:20%;
+		float: right;
+		font-size: 18px;
+		font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+	}
+
+	.poster img{
+		width: 200px;
+	}
+
